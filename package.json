@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/joe-leong/my-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "koa": "^2.13.0",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
