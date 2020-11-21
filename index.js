@@ -21,10 +21,17 @@ render(app, {
 });
 
 router.get("/", index);
+router.get("/about", about);
 
 // 函数声明
 async function index(ctx) {
   await ctx.render("index", {
+    title: "Things i love...."
+  });
+}
+// 函数声明
+async function about(ctx) {
+  await ctx.render("about/index", {
     title: "Things i love...."
   });
 }
